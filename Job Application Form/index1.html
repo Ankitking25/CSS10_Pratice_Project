@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="container">
+           <div class="apply_box">
+            <h1>Job Application <span class="title">(Software Developer)</span></h1>
+            
+            <!--Form-->
+            <form action="">
+                   <div class="form_container">
+
+                           <div class="form_control">
+                               <label for="y">First Name</label> <!--for use  when click on First Name automatically go inside the input by help of id n-->
+                               <input  id="y" name="Name" placeholder="Enter First Name"/>
+                           </div>
+                        
+                           <div class="form_control">
+                               <label for="x">Last Name</label>  <!--for use  when click on First Name automatically go inside the input by help of id n-->
+                               <input  id="x" name="Name" placeholder="Enter Last Name"/>
+                            </div>
+
+                            <div class="form_control">
+                                <label for="email">Email</label> <!--for use  when click on First Name automatically go inside the input by help of id n-->
+                                <input type="email" id="email" name="Name" placeholder="Enter Email .."/>
+                             </div>
+                         
+                           <div class="form_control">
+                                <label for="job_rol">Job Role</label>  <!--for use  when click on First Name automatically go inside the input by help of id n-->
+                                <select id="job_rol" name="job_rol">
+                                  <option value="">Select Job Role</option>
+                                  <option value="">Software Developer</option>
+                                  <option value="Frontend">Frontend Developer</option>
+                                  <option value="Backend">Backend Developer</option>
+                                  <option value="full_stack">Full Stack</option>
+                                  <option value="ui_ux">UI UX Designer</option>
+                                </select>
+                           </div>
+
+                           <div class="text_area_control">
+                            <label for="address">Address</label>  <!--for use  when click on First Name automatically go inside the input by help of id n-->
+                            <textarea type="text" id="address" name="address" row="4" cols="50" placeholder="Enter Adress"></textarea>
+                         </div>
+
+                         <div class="form_control">
+                            <label for="city">City Name</label> <!--for use  when click on First Name automatically go inside the input by help of id n-->
+                            <input   id="city" name="city" placeholder="Enter City Name ..."/>
+                        </div>
+
+                        <div class="form_control">
+                            <label for="pincode">Pincode</label>  <!--for use  when click on First Name automatically go inside the input by help of id n-->
+                            <input type="number"  id="pincode" name="city" placeholder="Enter Pincode ..."/>
+                        </div>
+
+
+                        <div class="form_control">
+                            <label for="date">Date</label>
+                            <input value = "2024-01-01" type="date" id="date" name="date"/>
+                        </div>
+
+
+                        <div class="form_control">
+                            <label for="upload">UPLOAD Your CV</label>
+                            <input  type="file" id="upload" name="date"/>
+                        </div>
+
+                       
+                   </div>
+            </form>
+            
+            
+
+            <div class="Button_container">
+                <button type="submit">Apply Now</button>
+           </div>
+               
+           </div>
+    </div>
+    
+
+</body>
+</html>
